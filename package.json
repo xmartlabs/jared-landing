@@ -1,0 +1,8 @@
+{
+  "name": "jared-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://mlvieras@bitbucket.org/xmartlabs/jared-bot.git",
+  "author": "Matías Lorenzo <mlvieras@hotmail.com>",
+  "license": "MIT"
+}
