@@ -1,3 +1,17 @@
 /* Variables */
 .navbar {
+  height: 80px;
   background-color: #f9fafc; }
+  .navbar a {
+    padding-top: 30px !important;
+    color: #939393 !important;
+    height: 20px !important;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal; }
+  .navbar .jared-logo {
+    height: 75px; }

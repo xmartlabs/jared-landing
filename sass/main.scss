@@ -8,5 +8,21 @@ $navbar-font-color: #939393;
 $footer-background: #4a4a4a;
 
 .navbar {
+  height: 80px;
   background-color: $navbar-background;
+  a {
+    padding-top: 30px !important;
+    color: $navbar-font-color !important;
+    height: 20px !important;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .jared-logo {
+    height: 75px;
+  }
 }
