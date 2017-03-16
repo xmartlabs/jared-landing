@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://mlvieras@bitbucket.org/xmartlabs/jared-bot.git",
   "author": "Matías Lorenzo <mlvieras@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
 }
