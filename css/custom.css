@@ -1,6 +1,6 @@
 /* Variables */
 html {
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 .vertically-padded, .padded {
   padding-top: 20px;
@@ -19,7 +19,8 @@ html {
     line-height: 80px;
     padding-top: 0; }
   .navbar .logo {
-    margin-top: 17.5px; }
+    margin-top: 17.5px;
+    margin-left: 20px; }
   .navbar a {
     color: #939393 !important;
     font-family: Roboto;

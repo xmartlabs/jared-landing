@@ -10,7 +10,7 @@ $navbar-height: 80px;
 $footer-background: $grey;
 
 html {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .vertically-padded {
@@ -36,6 +36,7 @@ html {
   }
   .logo {
     margin-top: (($navbar-height - 45) / 2);
+    margin-left: 20px;
   }
   background-color: $navbar-background;
   a {
