@@ -53,20 +53,51 @@
   letter-spacing: normal;
   color: #4a4a4a; }
 
-.green-body {
+.body-partition, .green-body {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #29aaa5; }
+  padding-bottom: 30px; }
 
-.white-header {
+.body-header, .white-header, .grey-header {
   font-family: Amaranth;
   font-size: 30px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
+  letter-spacing: normal; }
+
+.centered-image {
+  margin: 0 auto; }
+
+.green-body {
+  background-color: #29aaa5; }
+
+.white-header {
+  color: white; }
+
+.grey-header {
+  color: #4a4a4a; }
+
+.white-paragraph {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
   letter-spacing: normal;
   color: white; }
+  .white-paragraph.bold {
+    font-weight: bold; }
+
+.input {
+  padding: 10px 5px;
+  margin-top: 20px;
+  width: 100%;
+  border-style: none;
+  border-bottom: solid 1px #d8d8d8;
+  font-family: Roboto;
+  font-size: 17px; }
 
 html {
   overflow-x: hidden; }

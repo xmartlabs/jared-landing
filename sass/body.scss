@@ -1,10 +1,9 @@
-.green-body {
+.body-partition {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: $primary-color;
 }
 
-.white-header {
+.body-header {
   font-family: Amaranth;
   font-size: 30px;
   font-weight: normal;
@@ -12,5 +11,48 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+}
+
+.centered-image {
+  margin: 0 auto;
+}
+
+.green-body {
+  @extend .body-partition;
+  background-color: $primary-color;
+}
+
+.white-header {
+  @extend .body-header;
   color: white;
+}
+
+.grey-header {
+  @extend .body-header;
+  color: $grey;
+}
+
+.white-paragraph {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  &.bold {
+    font-weight: bold;
+  }
+}
+
+.input {
+  padding: 10px 5px;
+  margin-top: 20px;
+  width: 100%;
+  border-style: none;
+  border-bottom: solid 1px $light-grey;
+
+  font-family: Roboto;
+  font-size: 17px;
 }
