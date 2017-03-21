@@ -1,11 +1,14 @@
 /* Variables */
 .navbar {
-  height: 80px;
   background-color: #f9fafc; }
+  .navbar .navbar-brand, .navbar .navbar-nav li a {
+    height: 80px;
+    line-height: 80px;
+    padding-top: 0; }
+  .navbar .logo {
+    margin-top: 17.5px; }
   .navbar a {
-    padding-top: 30px !important;
     color: #939393 !important;
-    height: 20px !important;
     font-family: Roboto;
     font-size: 16px;
     font-weight: bold;

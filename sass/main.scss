@@ -4,16 +4,22 @@ $orange: #f57a23;
 
 $navbar-background: #f9fafc;
 $navbar-font-color: #939393;
+$navbar-height: 80px;
 
 $footer-background: #4a4a4a;
 
 .navbar {
-  height: 80px;
+  .navbar-brand, .navbar-nav li a {
+    height: $navbar-height;
+    line-height: $navbar-height;
+    padding-top: 0;
+  }
+  .logo {
+    margin-top: (($navbar-height - 45) / 2);
+  }
   background-color: $navbar-background;
   a {
-    padding-top: 30px !important;
     color: $navbar-font-color !important;
-    height: 20px !important;
     font-family: Roboto;
     font-size: 16px;
     font-weight: bold;
@@ -21,8 +27,5 @@ $footer-background: #4a4a4a;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-  }
-  .jared-logo {
-    height: 75px;
   }
 }
