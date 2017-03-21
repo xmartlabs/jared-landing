@@ -1,0 +1,37 @@
+.header-container {
+  .jared-illustration {
+    margin: 0 auto;
+  }
+  .jared-header {
+    font-family: Amaranth;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $orange;
+  }
+
+  .jared-subheader {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $grey;
+  }
+
+  .jared-subtext {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $grey;
+  }
+}

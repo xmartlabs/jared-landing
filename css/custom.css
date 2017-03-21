@@ -1,18 +1,4 @@
 /* Variables */
-html {
-  overflow-x: hidden; }
-
-.vertically-padded, .padded {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
-.padded {
-  padding-left: 30px;
-  padding-right: 30px; }
-
-.separator {
-  height: 60px; }
-
 .navbar {
   background-color: #f9fafc; }
   .navbar .navbar-toggle {
@@ -81,3 +67,17 @@ html {
   line-height: normal;
   letter-spacing: normal;
   color: white; }
+
+html {
+  overflow-x: hidden; }
+
+.vertically-padded, .padded {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.padded {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.separator {
+  height: 60px; }

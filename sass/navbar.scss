@@ -1,0 +1,25 @@
+.navbar {
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+  .navbar-brand, .navbar-nav li a {
+    height: $navbar-height;
+    line-height: $navbar-height;
+    padding-top: 0;
+  }
+  .logo {
+    margin-top: (($navbar-height - 45) / 2);
+    margin-left: 20px;
+  }
+  background-color: $navbar-background;
+  a {
+    color: $navbar-font-color !important;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
