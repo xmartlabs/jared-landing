@@ -10,6 +10,9 @@ html {
   padding-left: 30px;
   padding-right: 30px; }
 
+.separator {
+  height: 60px; }
+
 .navbar {
   background-color: #f9fafc; }
   .navbar .navbar-toggle {
@@ -63,3 +66,18 @@ html {
   line-height: normal;
   letter-spacing: normal;
   color: #4a4a4a; }
+
+.green-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #29aaa5; }
+
+.white-header {
+  font-family: Amaranth;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white; }
