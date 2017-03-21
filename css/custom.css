@@ -1,6 +1,19 @@
 /* Variables */
+html {
+  overflow: hidden; }
+
+.vertically-padded, .padded {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.padded {
+  padding-left: 30px;
+  padding-right: 30px; }
+
 .navbar {
   background-color: #f9fafc; }
+  .navbar .navbar-toggle {
+    margin-top: 20px; }
   .navbar .navbar-brand, .navbar .navbar-nav li a {
     height: 80px;
     line-height: 80px;
@@ -16,5 +29,36 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal; }
-  .navbar .jared-logo {
-    height: 75px; }
+
+.header-container .jared-illustration {
+  margin: 0 auto; }
+
+.header-container .jared-header {
+  font-family: Amaranth;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f57a23; }
+
+.header-container .jared-subheader {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a; }
+
+.header-container .jared-subtext {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a; }

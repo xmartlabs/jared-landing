@@ -1,14 +1,34 @@
 /* Variables */
 $primary-color: #29aaa5;
 $orange: #f57a23;
+$grey: #4a4a4a;
 
 $navbar-background: #f9fafc;
 $navbar-font-color: #939393;
 $navbar-height: 80px;
 
-$footer-background: #4a4a4a;
+$footer-background: $grey;
+
+html {
+  overflow: hidden;
+}
+
+.vertically-padded {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padded {
+  @extend .vertically-padded;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
 
 .navbar {
+  .navbar-toggle {
+    margin-top: 20px;
+  }
   .navbar-brand, .navbar-nav li a {
     height: $navbar-height;
     line-height: $navbar-height;
@@ -27,5 +47,43 @@ $footer-background: #4a4a4a;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+  }
+}
+
+.header-container {
+  .jared-illustration {
+    margin: 0 auto;
+  }
+  .jared-header {
+    font-family: Amaranth;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $orange;
+  }
+
+  .jared-subheader {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $grey;
+  }
+
+  .jared-subtext {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $grey;
   }
 }
