@@ -128,6 +128,27 @@
   text-align: center;
   color: white; }
 
+.footer {
+  background-color: #4a4a4a;
+  padding: 30px; }
+
+.footer-logo {
+  float: right; }
+
+.footer-text, .xl-github-link {
+  font-family: Roboto;
+  color: white; }
+
+.xl-github-link {
+  font-weight: bold; }
+  .xl-github-link:hover {
+    color: white; }
+
+@media (max-width: 767px) {
+  .footer-logo {
+    float: none;
+    margin-bottom: 20px; } }
+
 html {
   overflow-x: hidden; }
 
