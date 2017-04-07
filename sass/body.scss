@@ -11,6 +11,9 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  &.small {
+    font-size: 22px;
+  }
 }
 
 .centered-image {
@@ -27,12 +30,17 @@
   color: white;
 }
 
+.green-header {
+  @extend .body-header;
+  color: $primary-color;
+}
+
 .grey-header {
   @extend .body-header;
   color: $grey;
 }
 
-.white-paragraph {
+.paragraph {
   font-family: Roboto;
   font-size: 17px;
   font-weight: normal;
@@ -40,10 +48,19 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: white;
   &.bold {
     font-weight: bold;
   }
+}
+
+.white-paragraph {
+  @extend .paragraph;
+  color: white;
+}
+
+.grey-paragraph {
+  @extend .paragraph;
+  color: $grey;
 }
 
 .input {
@@ -55,4 +72,22 @@
 
   font-family: Roboto;
   font-size: 17px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  height: 50px;
+  width: 180px;
+  margin: 50px auto;
+  border: 0;
+  text-align: center;
+  background-color: $orange;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
