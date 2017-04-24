@@ -1,28 +1,31 @@
 .footer {
   background-color: $footer-background;
-  padding: 30px;
-}
+  padding: 75px;
+  height: 200px;
+  .footer-logo {
+    float: right;
+  }
 
-.footer-logo {
-  float: right;
-}
-
-.footer-text {
-  font-family: Roboto;
-  color: white;
-}
-
-.xl-github-link {
-  @extend .footer-text;
-  font-weight: bold;
-  &:hover {
+  .footer-text {
+    font-family: Roboto;
     color: white;
+  }
+
+  .footer-link {
+    @extend .footer-text;
+    font-weight: bold;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
   }
 }
 
 @media (max-width: $screen-xs-max) {
-  .footer-logo {
-    float: none;
-    margin-bottom: 20px;
+  .footer {
+    .footer-logo {
+      float: none;
+      margin-bottom: 20px;
+    }
   }
 }

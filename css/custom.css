@@ -130,22 +130,21 @@
 
 .footer {
   background-color: #4a4a4a;
-  padding: 30px; }
-
-.footer-logo {
-  float: right; }
-
-.footer-text, .xl-github-link {
-  font-family: Roboto;
-  color: white; }
-
-.xl-github-link {
-  font-weight: bold; }
-  .xl-github-link:hover {
+  padding: 75px;
+  height: 200px; }
+  .footer .footer-logo {
+    float: right; }
+  .footer .footer-text, .footer .footer-link {
+    font-family: Roboto;
     color: white; }
+  .footer .footer-link {
+    font-weight: bold; }
+    .footer .footer-link:hover {
+      color: white;
+      text-decoration: underline; }
 
 @media (max-width: 767px) {
-  .footer-logo {
+  .footer .footer-logo {
     float: none;
     margin-bottom: 20px; } }
 
