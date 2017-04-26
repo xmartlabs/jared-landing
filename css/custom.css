@@ -104,29 +104,34 @@
   max-width: 100%; }
 
 .input {
-  padding: 10px 5px;
+  padding: 10px 5px !important;
   margin-top: 20px;
-  width: 100%;
-  border-style: none;
-  border-bottom: solid 1px #d8d8d8;
+  width: 100% !important;
+  border-style: none !important;
+  border-bottom: solid 1px #d8d8d8 !important;
   font-family: Roboto;
   font-size: 17px; }
 
-.button-container {
-  text-align: center; }
-
-.button {
+.form-button {
   height: 50px;
-  width: 180px;
-  margin: 50px auto;
-  border: 0;
-  text-align: center;
+  width: 180px !important;
+  margin: 50px auto !important;
+  border: 0 !important;
+  text-align: center !important;
   background-color: #f57a23;
   font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   color: white; }
+
+#mce-responses {
+  padding: 0 !important;
+  margin: 0 !important; }
+  #mce-responses .response {
+    padding: 0 !important;
+    margin: 10px 0 !important;
+    width: auto !important; }
 
 .footer {
   background-color: #4a4a4a;

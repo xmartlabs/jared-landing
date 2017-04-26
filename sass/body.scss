@@ -67,31 +67,40 @@
   max-width: 100%;
 }
 
+// importants where added to overwrite mailchimp's styles
 .input {
-  padding: 10px 5px;
+  padding: 10px 5px !important;
   margin-top: 20px;
-  width: 100%;
-  border-style: none;
-  border-bottom: solid 1px $light-grey;
+  width: 100% !important;
+  border-style: none !important;
+  border-bottom: solid 1px $light-grey !important;
 
   font-family: Roboto;
   font-size: 17px;
 }
 
-.button-container {
-  text-align: center;
-}
-
-.button {
+// importants where added to overwrite mailchimp's styles
+.form-button {
   height: 50px;
-  width: 180px;
-  margin: 50px auto;
-  border: 0;
-  text-align: center;
+  width: 180px !important;
+  margin: 50px auto !important;
+  border: 0 !important;
+  text-align: center !important;
   background-color: $orange;
   font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   color: white;
+}
+
+// Mailchimp overwrites
+#mce-responses {
+  padding: 0 !important;
+  margin: 0 !important;
+  .response {
+    padding: 0 !important;
+    margin: 10px 0 !important;
+    width: auto !important;
+  }
 }
