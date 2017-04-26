@@ -23,6 +23,8 @@
 
 @media (max-width: $screen-xs-max) {
   .footer {
+    height: auto;
+    padding: 40px;
     .footer-logo {
       float: none;
       margin-bottom: 20px;

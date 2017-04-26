@@ -144,9 +144,12 @@
       text-decoration: underline; }
 
 @media (max-width: 767px) {
-  .footer .footer-logo {
-    float: none;
-    margin-bottom: 20px; } }
+  .footer {
+    height: auto;
+    padding: 40px; }
+    .footer .footer-logo {
+      float: none;
+      margin-bottom: 20px; } }
 
 html {
   overflow-x: hidden; }
