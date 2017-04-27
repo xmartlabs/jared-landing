@@ -1,4 +1,4 @@
-# Jared Bot Landing Page
+# Jared
 
 ![Jared Logo](https://d18tndtkm7kj2p.cloudfront.net/jared/jared-illustration.png)
 
@@ -16,4 +16,4 @@ Developers must focus on what's important. There is simply no time to keep up wi
 
 ## Where?
 
-[Here!](https://jaredbot.com)
+Find out more [here!](https://jaredbot.com)
