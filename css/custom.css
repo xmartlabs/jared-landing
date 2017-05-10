@@ -156,6 +156,12 @@
       float: none;
       margin-bottom: 20px; } }
 
+.terms-and-conditions {
+  font-family: Roboto;
+  margin-bottom: 30px; }
+  .terms-and-conditions .col {
+    margin-top: 10px; }
+
 html {
   overflow-x: hidden; }
 
